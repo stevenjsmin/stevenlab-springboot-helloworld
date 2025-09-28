@@ -30,3 +30,7 @@ JAR가 로컬 target/에 있어야 함 (위에서 mvn package 완료 전제)
 ----
 ### Test
 - 브라우저: http://localhost:8080/  → "Hello world"
+
+----
+### Docker image registry
+https://trialqdcy13.jfrog.io/ui/repos/tree/General/stevenlab-docker-local
