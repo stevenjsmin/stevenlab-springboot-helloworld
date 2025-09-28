@@ -2,7 +2,8 @@
 FROM eclipse-temurin:17-jre-jammy
 #FROM eclipse-temurin:17-jre-alpine
 
-ENV VERSION=1.0-SNAPSHOT
+ARG VERSION=1.0-SNAPSHOT
+ENV VERSION=${VERSION}
 
 # 애플리케이션 JAR 복사
 ARG JAR_FILE=target/springboot-helloworld-${VERSION}.jar
